@@ -9,6 +9,10 @@ html {
     margin:0;
     padding:0;
 }
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
 /* The main content of the page */
 div.container,
 div.content {
