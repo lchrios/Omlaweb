@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, serif;
+    background: #e6e6e6;
+}
+h1, h2, h3{
+    font-family: Verdana, Geneva, sans-serif;
+}
+.container {
+    background: white;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 100px 50px 100px;
+    text-align: center;
+}
+header {
+    padding: 50px;
+}
+nav {
+    float: center;
+    color: #f2f2f2;
+    background: #f96e5b;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+#navigation ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 0px 50px 0px 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.logo {
+    padding: 30px 60px 0px 0px;
+    float: left;
+    height: 100px;;
+}
+p {
+    text-align: justify;
+}
+#introduction p{
+    padding: 0px 500px 10px 44px;
+}
+#introduction ul{
+    text-align: left;
+}
