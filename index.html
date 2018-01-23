@@ -1,45 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="description" content="Explaning the bases of web desing.">
-        <title>HTML bases</title>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <div class="container">
-            <header>
-                <nav id="navigation">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Basics of HTML, CSS and Javascript">
+    <title>Basic Web design</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+        <div class="container" id="home">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+        </div>
+    </header>
+    <div class="navigate">
+        <nav>
+            <ul class="clearfix">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">Javascript</a></li>
+                <li><a href="#">Contacto</a>
                     <ul>
-                        <li><a href="#test">HTML</a></li>
-                        <li><a href="#">CSS</a></li>
-                        <li><a href="#">JS</a></li>
-                        <li><a href="#">Contact us</a></li>
-                    </ul>
-                </nav>
-            </header>
-            <main class="main-content">
-                <img src="img/logo.png" class="logo" alt="Logo of the web languages.">
-                <section id="introduction">
-                    <h2>Introduction</h2>
-                    <br>
-                    <p>This webpage explains the basic structure, elements and recomendations for the languages of the web. We can summarize the content in the following structure:</p>
-                    <ul>
-                        <li>HTML 5</li>
-                        <ul>
-                            <li>Something here</li>
-                        </ul>
-                        <li>CSS</li>
-                        <ul>
-                            <li>Something else here</li>
-                        </ul>
-                        <li>Javascript</li>
-                        <ul>
-                            <li>Something more here</li>
-                        </ul>
-                    </ul>
-                </section>
-            </main>
-        </div><!-- .container -->
-    </body>
+                    <li><a href="https://github.com/orgs/ISC-ITESM-GDA/teams/8102-olma">Github</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://www.w3schools.com/">Learn More</a></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+    <div class="content">
+        <main>
+            <article>
+                <h2>HTML5</h2>
+                <img src="img/html5.png" alt="HTML logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="button">Porsiquieren</a>
+            </article>
+            <article>
+                <h2>CSS3</h2>
+                <img src="img/css3.png" alt="CSS logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="button">Porsiquieren</a>
+            </article>
+            <article>
+                <h2>Javascript</h2>
+                <img src="img/js.jpg" alt="Javascript logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <a href="#" class="button">Porsiquieren</a>
+            </article>
+        </main>
+
+        <aside class="sidebar">
+            <h2>Otros posts</h2>
+            <ul>
+              <li><a href="#">Entrada 1</a></li>
+              <li><a href="#">Entrada 2</a></li>
+              <li><a href="#">Entrada 3</a></li>
+              <li><a href="#">Entrada 4</a></li>
+              <li><a href="#">Entrada 5</a></li>
+            </ul>
+        </aside>
+    </div> <!--contenido-->
+  </body>
 </html>
