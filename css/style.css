@@ -1,12 +1,12 @@
 /* Ahorita el CSS es un desvergue, ahorita lo arreglamos */
-body {
+body{
     font-family: Arial, Helvetica, serif;
     /*background: #e6e6e6;*/
 }
 h1, h2, h3{
     font-family: Verdana, Geneva, sans-serif;
 }
-.container {
+.container{
     background: white;
     width: 1200px;
     margin-left: auto;
@@ -14,14 +14,16 @@ h1, h2, h3{
     padding: 0px 100px 50px 100px;
     text-align: center;
 }
-header {
-    padding: 50px;
+.main-content{
+    padding: 70px;
 }
-nav {
+nav{
+    /*position: fixed; Dont know if we are gonna do this*/
+    top: 0px;
     float: center;
     background: #f96e5b;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 5px;
     text-decoration: none;
     font-size: 18px;
 }
@@ -35,6 +37,7 @@ nav {
 #navigation ul li a {
     display: block;
     color: white;
+    font-weight: bold;
     text-decoration: none;
     
 }
