@@ -29,6 +29,15 @@ h2 {
     color: #00b8e4; /* Change this color */
     margin-bottom: 20px;
 }
+img {
+    float: left;
+    width: 100px;
+    display: inline-block;
+}
+#copyright {
+    float: right;
+    display: inline-block;
+}
 /* Navigation */
 .navigate{
     background-color: #00a3cc;
