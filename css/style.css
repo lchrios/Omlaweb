@@ -28,7 +28,7 @@ header {
 h2 {
     color: #00b8e4; /* Change this color */
     margin-bottom: 20px;
-} 
+}
 img {
     float: left;
     width: 100px;
@@ -49,6 +49,9 @@ nav {
 }
 nav ul {
     list-style: none;
+}
+nav ul li {
+    border: 1px solid #6495ED;
 }
 nav > ul > li {
     float: left;
@@ -85,6 +88,9 @@ nav ul li:hover {
     background-color: blue;
 }
 /* Content part */
+.below-content {
+    padding: 10px 0px 0px 70px;
+}
 div.content::after {
     content: '';
     display: block;
@@ -112,6 +118,15 @@ article::after {
 article p {
     line-height: 2;
     text-align: justify;
+}
+article ul {
+    line-height: 2;
+    text-align: justify;
+}
+.image-left {
+    float: right;
+    width: 250px;
+    padding-right: 50px;
 }
 .button {
     background-color: aliceblue;
