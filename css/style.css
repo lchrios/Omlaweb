@@ -20,6 +20,8 @@ div.content {
     margin: 0 auto;
 }
 body {
+    /*background: linear-gradient(white, black);*/
+    background: repeating-linear-gradient(to bottom, #ffffff 0%,#f3f3f3 50%,#ededed 51%,#ffffff 100%);
     font-family: Arial, serif;
 }
 header {
@@ -28,6 +30,9 @@ header {
 h2 {
     color: #00b8e4; /* Change this color */
     margin-bottom: 20px;
+}
+h3 {
+    color: #00b8e4;
 }
 img {
     float: left;
